@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "production",
-  entry: { app: `./src/fc.js` },
+  entry: { app: `./src/fc.mjs` },
   plugins: [],
   output: {
     filename: "fc.js",

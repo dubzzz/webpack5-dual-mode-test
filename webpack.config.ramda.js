@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "production",
-  entry: { app: `./src/ramda.js` },
+  entry: { app: `./src/ramda.mjs` },
   plugins: [],
   output: {
     filename: "ramda.js",

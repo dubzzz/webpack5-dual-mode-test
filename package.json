@@ -1,7 +1,9 @@
 {
   "scripts": {
     "build:fc": "webpack --config webpack.config.fc.js",
-    "build:ramda": "webpack --config webpack.config.ramda.js"
+    "build:ramda": "webpack --config webpack.config.ramda.js",
+    "node:fc": "node src/fc.mjs",
+    "node:ramda": "node src/ramda.mjs"
   },
   "dependencies": {
     "fast-check": "^2.5.0",
