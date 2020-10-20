@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build:fc": "webpack --config webpack.config.fc.js",
+    "build:ramda": "webpack --config webpack.config.ramda.js"
+  },
+  "dependencies": {
+    "fast-check": "^2.5.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
+}
